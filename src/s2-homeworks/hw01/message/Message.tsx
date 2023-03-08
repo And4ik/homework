@@ -4,12 +4,13 @@ import {MessageType} from "../HW1";
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
-    message:MessageType
+    message:MessageType   // ЕЩЕ РАЗ ЧТО ЭТО
 }
 
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
-    console.log(props)
+   // console.log(props)
+
     return (
         <div id={'hw1-message-' + props.message.id} className={s.message}>
             <div className={s.imageAndText}>

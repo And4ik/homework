@@ -28,7 +28,7 @@ export const message0: MessageType = {
         name: 'Brad Pitt',  // можно менять
     },
     message: {
-        text: 'Hello, i am Brad Pitt', // можно менять
+        text: 'Hello, how are you, what did you do yesterday?', // можно менять
         time: 'now 22:00', // можно менять
     },
 }
@@ -36,11 +36,11 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: avatar, // можно менять
-        name: 'Friend Name', // можно менять
+        name: 'Andrei Khanko', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        text: 'Hello, i am did not do anything and rested all day, how are you? ', // можно менять
+        time: 'now 22:05', // можно менять
     },
 }
 
